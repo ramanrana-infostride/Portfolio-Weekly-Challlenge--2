@@ -1,0 +1,227 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EF1768;
+    color: white ;
+    font-family: system-ui;
+}
+
+
+
+header nav ul {
+    display: flex;
+    text-decoration: none;
+   position: relative;
+   right:0%;
+   
+   
+}
+
+
+
+header nav ul li{
+    display: flex;
+    text-decoration: none;
+   
+}
+
+
+.nav-link a{
+    color: white;
+    text-decoration: none;  
+    font-size: 120%;
+    margin: 1rem;           
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    
+    color: rgb(231, 157, 157) !important;
+
+}
+
+
+
+
+
+/* main part  */
+
+main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}       
+
+
+/* social section */
+
+#social-heading{
+    font-size: 40px;
+    margin-bottom:0;
+}
+
+#social-heading h1{
+   
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+}
+
+.social ul{
+    display: flex;
+}
+
+.social ul li{
+   list-style: none;
+   margin-right: 2rem;
+  
+}
+
+.social ul li a{
+    
+    color: white;
+    text-decoration: none;  
+
+    
+   
+ }
+
+
+ /* About me section */
+
+ #About-Me{
+    display: flex;
+    background-color: black;
+    margin-top: 4rem;
+    
+    
+ }
+
+ .about-img{
+    margin: 2rem;
+
+ }
+ .about-img img{
+
+    height: 300px;
+
+ }
+
+
+ .about-content{
+    margin-top: 2rem;
+
+ }
+
+
+ /* work section css   */
+
+
+ #work-section{
+    background-color: black;
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+ }
+ .project-cards{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+ }
+
+ .project-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width:40%
+  }
+  
+  /* Add some padding inside the card container */
+  .heading-container {
+    padding: 2px 16px;
+  }   
+  
+  .project-card-img{
+    width:100%
+
+  }
+
+
+  /* Contact section css */
+
+
+  #contact-section{
+    background-color: black;
+    margin-top: 2rem;
+
+  }
+  .Contact-details{
+    margin-top: 2rem    ;
+  }
+
+  #contact-section h2{
+    text-align: center;
+
+  }
+
+  .contacts{
+    display: flex;
+    
+  }
+
+  .contact-img{
+    margin: 2rem;
+    width: 50%;
+  }
+  
+
+  .contact-img img{
+    width:100%;
+  }
+
+ 
+
+/* Adding media queries for responsivness */
+
+@media only screen and (max-width: 600px) {
+    #About-Me{
+        flex-direction: column;
+    }
+    .about-img img{
+
+        height: 400px;
+    
+     }
+     .about-content
+     {
+        margin: 2rem;
+     }
+
+     .contacts{
+        flex-wrap: wrap;
+        margin: 2rem;
+        
+      }
+
+
+
+
+  }
